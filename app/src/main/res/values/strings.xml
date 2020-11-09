@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="todays_weather">Today\'s weather</string>
+    <string name="weather_retrieve_fail">No Data, Please Try Again</string>
+
+
+</resources>
