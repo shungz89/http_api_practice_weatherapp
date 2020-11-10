@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.weatherapp_httpapi">
+    package="com.example.weatherapphttp">
 
 <!--    You need this two permission to do http call-->
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.WeatherApp_HttpAPI">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.weatherapphttp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

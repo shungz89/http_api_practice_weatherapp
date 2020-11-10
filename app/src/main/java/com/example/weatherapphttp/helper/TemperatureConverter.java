@@ -1,4 +1,4 @@
-package com.example.weatherapp_httpapi.helper;
+package com.example.weatherapphttp.helper;
 
 public class TemperatureConverter {
     //TODO:Remove this later.

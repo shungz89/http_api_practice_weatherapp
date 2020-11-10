@@ -1,4 +1,4 @@
-package com.example.weatherapp_httpapi;
+package com.example.weatherapphttp;
 
 import org.junit.Test;
 

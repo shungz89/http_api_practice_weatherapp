@@ -1,6 +1,6 @@
-package com.example.weatherapp_httpapi;
+package com.example.weatherapphttp;
 
-import com.example.weatherapp_httpapi.model.WeatherDetails;
+import com.example.weatherapphttp.model.WeatherDetails;
 
 public interface ResultListener {
       void onSuccess(WeatherDetails weatherDetails);

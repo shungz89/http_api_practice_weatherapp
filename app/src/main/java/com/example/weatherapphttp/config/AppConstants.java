@@ -1,4 +1,4 @@
-package com.example.weatherapp_httpapi.config;
+package com.example.weatherapphttp.config;
 
 public class AppConstants {
     public static final String API_KEY = "010afb9d1495ef6a108e7a3be9c3a1a5";

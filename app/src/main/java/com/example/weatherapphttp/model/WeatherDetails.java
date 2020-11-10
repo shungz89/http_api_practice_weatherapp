@@ -1,4 +1,4 @@
-package com.example.weatherapp_httpapi.model;
+package com.example.weatherapphttp.model;
 
 public class WeatherDetails {
     String cityName;

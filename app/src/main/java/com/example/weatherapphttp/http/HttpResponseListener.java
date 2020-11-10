@@ -1,12 +1,12 @@
-package com.example.weatherapp_httpapi.http;
+package com.example.weatherapphttp.http;
 
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.example.weatherapp_httpapi.ResultListener;
-import com.example.weatherapp_httpapi.config.AppConstants;
-import com.example.weatherapp_httpapi.helper.TemperatureConverter;
-import com.example.weatherapp_httpapi.model.WeatherDetails;
+import com.example.weatherapphttp.ResultListener;
+import com.example.weatherapphttp.config.AppConstants;
+import com.example.weatherapphttp.helper.TemperatureConverter;
+import com.example.weatherapphttp.model.WeatherDetails;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
