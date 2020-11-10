@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
-import com.example.weatherapphttp.http.HttpResponseListener;
+import com.example.weatherapphttp.http.HttpTask;
 import com.example.weatherapphttp.model.WeatherDetails;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         bindUI();
 
         //Perform task
-        HttpResponseListener requestTask = new HttpResponseListener();
+        HttpTask requestTask = new HttpTask();
         requestTask.execute("Kuala Lumpur");
         requestTask.setResultListener(new ResultListener() {
             @Override

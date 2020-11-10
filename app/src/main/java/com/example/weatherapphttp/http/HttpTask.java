@@ -20,7 +20,7 @@ import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
 
 //                                         AsyncTask<Params, Progress, Result>
-public class HttpResponseListener extends AsyncTask<String, Void, String> {
+public class HttpTask extends AsyncTask<String, Void, String> {
 
     private ResultListener responseListener;
 
