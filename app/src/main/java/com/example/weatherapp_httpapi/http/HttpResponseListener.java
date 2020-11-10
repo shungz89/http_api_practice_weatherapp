@@ -5,7 +5,7 @@ import android.util.Log;
 
 import com.example.weatherapp_httpapi.ResultListener;
 import com.example.weatherapp_httpapi.config.AppConstants;
-import com.example.weatherapp_httpapi.helper.TemperatureHelper;
+import com.example.weatherapp_httpapi.helper.TemperatureConverter;
 import com.example.weatherapp_httpapi.model.WeatherDetails;
 
 import org.json.JSONArray;
@@ -73,7 +73,7 @@ public class HttpResponseListener extends AsyncTask<String, Void, String> {
             JSONObject weatherMainObject = jsonResult.getJSONObject("main");
             double temp = weatherMainObject.getDouble("temp");
             DecimalFormat twoDecimals = new DecimalFormat("#.##");
-            String tempString = twoDecimals.format(TemperatureHelper.getInstance().convertKToCelsius(temp)) + "°C";
+            String tempString = twoDecimals.format(TemperatureConverter.convertKToCelsius(temp)) + "°C";
             weatherDetails.setTemperature(tempString);
 
             weatherDetails.setIconLink(AppConstants.BASE_URL + String.format("img/w/%s.png", weatherIcon));
