@@ -50,7 +50,7 @@ public class HttpTask extends AsyncTask<String, Void, String> {
             }
             Log.w("httpz", content.toString());
         } catch (Exception e) {
-            Log.w("httpz", e.getMessage());
+//            Log.w("httpz", e.getMessage());
         }
         return content.toString();
     }
